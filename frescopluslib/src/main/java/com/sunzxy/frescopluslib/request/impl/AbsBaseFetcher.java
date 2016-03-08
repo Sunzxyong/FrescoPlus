@@ -60,12 +60,6 @@ public abstract class AbsBaseFetcher<T> implements Fetcher<T> {
         fetch(UriUtil.parseUri(uriPath), callback);
     }
 
-    /**
-     * Before the method call.
-     * Can do something to deal with Uri and get data from Uri.
-     *
-     * @param uri uri
-     */
     protected abstract Object beforeExecute(Uri uri);
 
 }

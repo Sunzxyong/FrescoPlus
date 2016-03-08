@@ -17,13 +17,7 @@ public final class ParamCheckUtil {
     private ParamCheckUtil() {
     }
 
-    /**
-     * check reference not null
-     *
-     * @param reference
-     * @param <T>
-     * @return reference
-     */
+
     public static <T> T checkNotNull(T reference) {
         if (reference == null)
             throw new FPNullPointerException("The reference is null!");
@@ -37,10 +31,6 @@ public final class ParamCheckUtil {
         return reference;
     }
 
-    /**
-     * @param uri uri
-     * @return true if the uri is legal,false otherwise.
-     */
     public static void checkUriIsLegal(Uri uri) {
         ParamCheckUtil.checkNotNull(uri, "uri is null");
         String scheme = UriUtil.getSchemeOrNull(uri);

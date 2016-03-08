@@ -154,10 +154,6 @@ public class FrescoPlusFetcher extends AbsBaseFetcher<FrescoPlusView> {
         frescoPlusView.setController(draweeController);
     }
 
-    /**
-     * @param uri
-     * @param callback
-     */
     private void fetchImage(final Uri uri, final FPLoadCallback<Bitmap> callback) {
         ImageRequestBuilder requestBuilder = ImageRequestBuilder.newBuilderWithSource(uri);
         requestBuilder.setLowestPermittedRequestLevel(requestLevel);

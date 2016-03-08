@@ -74,11 +74,6 @@ public class UriUtil {
         return FrescoUri.DATA_SCHEME.equals(getSchemeOrNull(uri));
     }
 
-    /**
-     * The Uri of resource file.
-     * @param resId
-     * @return
-     */
     public static Uri parseUriFromResId(@DrawableRes int resId){
         return new Uri.Builder()
                 .scheme(FrescoUri.LOCAL_RESOURCE_SCHEME)

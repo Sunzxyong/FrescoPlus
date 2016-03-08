@@ -51,7 +51,6 @@ public final class ParamCheckUtil {
         validate(uri);
     }
     private static void validate(Uri uri) {
-        // make sure that the source uri is set correctly.
         if (UriUtil.isLocalResourceUri(uri)) {
             if (!uri.isAbsolute()) {
                 throw new FPRuntimeException("Resource URI path must be absolute.");

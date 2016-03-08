@@ -103,7 +103,7 @@ public class FrescoPlusInitializer {
 
     /**
      * print FrescoPlusConfig log
-     * @param frescoPlusConfig
+     * @param frescoPlusConfig config
      */
     private void printWDImageConfigLog(FrescoPlusConfig frescoPlusConfig) {
         if (isDebug) {

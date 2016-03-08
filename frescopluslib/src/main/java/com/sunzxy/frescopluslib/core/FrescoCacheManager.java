@@ -48,7 +48,7 @@ public class FrescoCacheManager {
 
     /**
      * @return has use disk cache space size,unit 'MB'.
-     * Keep two decimal places,example:2.2222->2.22.
+     * Keep two decimal places,example:2.2222 is 2.22.
      */
     public String getHasUseDiskCacheSizeWithMB() {
         long size = getHasUseDiskCacheSize();

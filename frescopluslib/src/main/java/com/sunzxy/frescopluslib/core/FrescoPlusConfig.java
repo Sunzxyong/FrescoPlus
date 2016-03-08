@@ -78,9 +78,9 @@ public class FrescoPlusConfig {
             logTag = tag;
             return this;
         }
-        /**
+         /**
          * @param val The Bitmap Config,such as:RGB_565,ARGB_8888,ARGB_4444.
-         * @return
+         * @return this
          */
         public Builder setBitmapConfig(Bitmap.Config val) {
             mBitmapConfig = val;
@@ -89,7 +89,7 @@ public class FrescoPlusConfig {
 
         /**
          * @param val The disk cache max size,unit is MB
-         * @return
+         * @return this
          */
         public Builder setMaxDiskCacheSize(int val) {
             mMaxDiskCacheSize = val;
@@ -98,7 +98,7 @@ public class FrescoPlusConfig {
 
         /**
          * @param val The disk cache dir,example:context.getApplicationContext().getCacheDir().
-         * @return
+         * @return this
          */
         public Builder setDiskCacheDir(File val) {
             mDiskCacheDir = val;

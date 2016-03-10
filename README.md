@@ -1,4 +1,7 @@
 # FrescoPlus
+
+[ ![Download](https://api.bintray.com/packages/sunzxyong/maven/FrescoPlus/images/download.svg) ](https://bintray.com/sunzxyong/maven/FrescoPlus/_latestVersion)
+
 ##基于Fresco图片库的二次封装，只需2步就可以让你的应用接入Fresco！
 由于Fresco的使用和配置起来需要写一堆代码，没认真看文档和源码根本无法很好的了解Fresco，所以基于Fresco二次封装，配置目前基本保持最优。
 #使用
